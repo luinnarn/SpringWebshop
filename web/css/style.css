@@ -1,0 +1,58 @@
+/* 
+    Author     : Nikola Dragić
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5cb85c;
+}
+
+li {
+    float: left;
+}
+.navbar-logged-text{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li  a:hover:not(.active) {
+    background-color: #255625;
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    /* background-color:#337ab7;*/
+    background: #269abc;
+
+}
+ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+}
+
+.product-image {
+    max-width: 320px;
+}
+
+.product-image-display {
+    max-width: 100%;
+}
